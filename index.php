@@ -1,6 +1,6 @@
 <?php
     session_start();
- 
+
     // cek apakah user sudah punya SESSION["email"]
     if (!isset($_SESSION["email"])) {
         // pindahin ke halaman index.php
@@ -16,7 +16,7 @@
   <title>Aplikasi Farmasi</title>
 </head>
 <body>
-  <h1>Selamat datang di Aplikasi Farmasi</h1>
+  <h1>Selamat datang di Aplikasi Farmasi V2</h1>
   <button><a href="obat.php">Daftar Obat</a></button>
   <button><a href="apotek.php">Daftar Apotek</a></button>
 
